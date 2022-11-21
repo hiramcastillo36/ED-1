@@ -1,0 +1,3 @@
+/Users/hiramcastillo/Desktop/ED-I/cmake-build-debug/CMakeFiles/ED_I.dir
+/Users/hiramcastillo/Desktop/ED-I/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hiramcastillo/Desktop/ED-I/cmake-build-debug/CMakeFiles/rebuild_cache.dir
