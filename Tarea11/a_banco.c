@@ -1,11 +1,14 @@
 /*
  * Alumno: Castillo Gutierrez Hiram Jalil
  * Materia: Estructuras de Datos I
- * Fecha: Lunes, 14 de noviembre del 2022
- * Descripción: Cada que cae un bloque, ocurre lo siguiente: mientras los dos bloques que están hasta arriba de la
- *              torre sean iguales, ambos se combinan en un sólo bloque con valor igual a la suma de los bloques que se combinaron.
- *              Esto ocurre hasta que ya no haya bloques iguales juntos. En ese momento, cae el siguiente bloque.
- *              Escribe un programa que, dada la secuencia de bloques que caerán, diga cómo queda la torre de bloques al final.
+ * Fecha: Martes, 22 de noviembre del 2022
+ * Descripción: La sucursal del banco "Dinero++" dispone de dos filas para atender a sus clientes y éstas operan bajo
+ * políticas diferentes. La primera fila está destinada para clientes en buen estatus y opera bajo la política de que
+ * el primer cliente en llegar es el primero en ser atendido. La segunda fila está destinada para clientes morosos y
+ * opera bajo la política de que el último cliente en llegar es el primero en ser atendido. Cuando un cliente llega a
+ * la sucursal, el sistema le dice en qué fila debe formarse. Cuentas con una bitácora de eventos que indica en qué
+ * momento llegó cada cliente y en qué fila se formó, así como en qué momento se atendió al siguiente cliente y de qué
+ * fila provino. Escribe un programa que determine en qué orden fueron atendidos los clientes
 */
 
 #include <stdio.h>
