@@ -3,4 +3,4 @@ project(ED_I C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(ED_I Tarea11/b_taquitos.c)
+add_executable(ED_I Tarea12/c.c Tarea12/d.c)
