@@ -46,11 +46,17 @@ cmake_ninja_workdir = /Users/hiramcastillo/Desktop/ED-I/cmake-build-debug/
 
 build cmake_object_order_depends_target_ED_I: phony || CMakeFiles/ED_I.dir
 
-build CMakeFiles/ED_I.dir/Tarea11/b.c.o: C_COMPILER__ED_I_Debug /Users/hiramcastillo/Desktop/ED-I/Tarea11/b.c || cmake_object_order_depends_target_ED_I
-  DEP_FILE = CMakeFiles/ED_I.dir/Tarea11/b.c.o.d
+build CMakeFiles/ED_I.dir/Ejercicios_Clase/grafos.c.o: C_COMPILER__ED_I_Debug /Users/hiramcastillo/Desktop/ED-I/Ejercicios$ Clase/grafos.c || cmake_object_order_depends_target_ED_I
+  DEP_FILE = CMakeFiles/ED_I.dir/Ejercicios_Clase/grafos.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/ED_I.dir
-  OBJECT_FILE_DIR = CMakeFiles/ED_I.dir/Tarea11
+  OBJECT_FILE_DIR = CMakeFiles/ED_I.dir/Ejercicios_Clase
+
+build CMakeFiles/ED_I.dir/Ejercicios_Clase/grafos2.c.o: C_COMPILER__ED_I_Debug /Users/hiramcastillo/Desktop/ED-I/Ejercicios$ Clase/grafos2.c || cmake_object_order_depends_target_ED_I
+  DEP_FILE = CMakeFiles/ED_I.dir/Ejercicios_Clase/grafos2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu11
+  OBJECT_DIR = CMakeFiles/ED_I.dir
+  OBJECT_FILE_DIR = CMakeFiles/ED_I.dir/Ejercicios_Clase
 
 
 # =============================================================================
@@ -60,7 +66,7 @@ build CMakeFiles/ED_I.dir/Tarea11/b.c.o: C_COMPILER__ED_I_Debug /Users/hiramcast
 #############################################
 # Link the executable ED_I
 
-build ED_I: C_EXECUTABLE_LINKER__ED_I_Debug CMakeFiles/ED_I.dir/Tarea11/b.c.o
+build ED_I: C_EXECUTABLE_LINKER__ED_I_Debug CMakeFiles/ED_I.dir/Ejercicios_Clase/grafos.c.o CMakeFiles/ED_I.dir/Ejercicios_Clase/grafos2.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
   OBJECT_DIR = CMakeFiles/ED_I.dir
   POST_BUILD = :
